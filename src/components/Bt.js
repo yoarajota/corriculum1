@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import "./Bt.scss";
+import { Button } from '@chakra-ui/react';
 
 const Bt = () => {
     const navigate = useNavigate();
@@ -8,7 +8,7 @@ const Bt = () => {
         navigate("/home");
     }
     return (
-        <button className='draw' onClick={handleClick}>Home</button>
+        <Button colorScheme='blue' onClick={handleClick}>Button</Button>
     )
 }
 
