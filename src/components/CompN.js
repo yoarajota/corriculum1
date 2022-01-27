@@ -13,7 +13,6 @@ const CompN = () => {
   };
 
   return (
-    <div className='compcorpo'>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} sx={{ backgroundColor: '#0e1d42', color: 'white'}}>
         <AccordionSummary   
           expandIcon={<ExpandMoreIcon sx={{ fill: "white" }} />}>
@@ -48,7 +47,6 @@ const CompN = () => {
         </AccordionDetails>
       </Accordion>
       
-    </div>
   );
 }
 

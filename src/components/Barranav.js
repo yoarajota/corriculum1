@@ -6,19 +6,10 @@ import React from 'react';
 
 const Barranav = ({handleChange, tela}) => {
   return (
-    <Grid templateColumns='5fr' h='6vh' display='flex' gap='20' justifyContent='center' alignItems='center'>
+    <Grid templateColumns='5fr' h='6vh' display='flex' gap='20' justifyContent='center' alignItems='center' position='absoltue'>
       <Button onClick={handleChange}>  aa
       </Button>
       {tela}
-      {/* <GridItem>
-        <Link fontSize='1.3vw' textStyle='none' color='white'>AAA</Link>
-      </GridItem>
-      <GridItem >
-        <Link fontSize='1.3vw' textStyle='none' color='white'>AAA</Link>
-      </GridItem>
-      <GridItem >
-        <Link fontSize='1.3vw' textStyle='none' color='white'>AAA</Link>
-      </GridItem> */}
     </Grid>
   )
 }
