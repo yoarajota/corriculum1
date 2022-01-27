@@ -1,13 +1,16 @@
 import {
-  Grid, GridItem, Link
+  Grid, GridItem, Link, Button
 } from '@chakra-ui/react'
 import React from 'react';
 
 
-const Barranav = () => {
+const Barranav = ({handleChange, tela}) => {
   return (
     <Grid templateColumns='5fr' h='6vh' display='flex' gap='20' justifyContent='center' alignItems='center'>
-      <GridItem>
+      <Button onClick={handleChange}>  aa
+      </Button>
+      {tela}
+      {/* <GridItem>
         <Link fontSize='1.3vw' textStyle='none' color='white'>AAA</Link>
       </GridItem>
       <GridItem >
@@ -15,7 +18,7 @@ const Barranav = () => {
       </GridItem>
       <GridItem >
         <Link fontSize='1.3vw' textStyle='none' color='white'>AAA</Link>
-      </GridItem>
+      </GridItem> */}
     </Grid>
   )
 }
