@@ -8,7 +8,7 @@ const Bt = () => {
         navigate("/home");
     }
     return (
-        <Button colorScheme='blue' onClick={handleClick}>Button</Button>
+        <Button  bg='#D8D4E7' colorScheme='blue' onClick={handleClick}>Button</Button>
     )
 }
 
