@@ -1,0 +1,9 @@
+.seta{
+    animation: is-boucing 1s ease-in-out alternate infinite;
+}
+
+@keyframes is-boucing   {
+    to {
+        transform: translateY(8px);
+    }
+}
