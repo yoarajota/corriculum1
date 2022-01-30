@@ -8,7 +8,7 @@ const BotImg = ({ handleChange, tela }) => {
   return (
     <Center>
       <Box>
-        <Image src={ImgYJ} alt='ImgYJ' m='25px' h='8vh' onClick={handleChange} />
+        <Image src={ImgYJ} alt='ImgYJ' m='25px' w='12vw' onClick={handleChange} />
       </Box>
     </Center>
   )

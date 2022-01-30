@@ -7,6 +7,7 @@ import Map from './map';
 import Pag0 from './pag0';
 import Pag1 from './pag1';
 import Pag2 from './pag2';
+import Pag3 from './pag3';
 
 const Home = () => {
 
@@ -22,7 +23,7 @@ const Home = () => {
     function handleClick() {
         counter == 0 && mudaTela(<Pag1 />)
         counter == 1 && mudaTela(<Pag2 />)
-        counter == 2 && mudaTela(<Pag1 />)
+        counter == 2 && mudaTela(<Pag3 />)
         setCounter((counter + 1) % 3)
     }
 

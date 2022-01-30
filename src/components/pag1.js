@@ -13,28 +13,28 @@ const Pag1 = () => {
         <Center>
             <Wrap justify='center' m='4vw 0 0 0' w='80vw' spacing='50px'>
                 <WrapItem>
-                    <Box minWidth='310px' minHeight='270px' align='center' border='3px solid #E1E3EF' borderRadius='35px'>
+                    <Box minWidth='210px' minHeight='210px' align='center'>
                         <Boxhtml />
                     </Box>
                 </WrapItem>
                 <WrapItem>
-                    <Box minWidth='310px' minHeight='270px' align='center' border='3px solid #E1E3EF' borderRadius='35px'>
+                    <Box minWidth='210px' minHeight='210px' align='center'>
                         <Boxcss />
                     </Box>
                 </WrapItem>
                 <WrapItem>
-                    <Box minWidth='310px' minHeight='270px' align='center' border='3px solid #E1E3EF' borderRadius='35px'>
+                    <Box minWidth='210px' minHeight='210px' align='center' >
                         <Boxjs />
                     </Box>
                 </WrapItem>
                 <WrapItem>
-                    <Box minWidth='310px' minHeight='270px' align='center' border='3px solid #E1E3EF' borderRadius='35px'>
-                        <Boxdart />
+                <Box minWidth='210px' minHeight='210px' align='center'>
+                        <Boxreact />
                     </Box>
                 </WrapItem>
                 <WrapItem>
-                    <Box minWidth='310px' minHeight='270px' align='center' border='3px solid #E1E3EF' borderRadius='35px'>
-                        <Boxreact />
+                <Box minWidth='210px' minHeight='210px' align='center'>
+                        <Boxdart />
                     </Box>
                 </WrapItem>
 
