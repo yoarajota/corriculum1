@@ -8,7 +8,7 @@ const Boxreact = () => {
 
     return (
         <>
-            <Image m='5px 0 0 0' src={React} w='90px' />
+            <Image m='5px 0 0 0' src={React} w='70%' />
             <Heading color='color.light' m='5px'>React</Heading>
             <Text color='color.light' fontSize='21px'> Nível Júnior</Text>
             <QuestionOutlineIcon onClick={onOpen} m='24px 0 0 0' boxSize='30px' color='#D8D4E7' />

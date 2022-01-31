@@ -3,3 +3,7 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
+
+body{
+  background-color: linear-gradient(to top, #0c0b18, #120c1b, #180d1d, #1d0e1f, #230e1f);
+}

@@ -29,7 +29,7 @@ const Home = () => {
 
     return (
         <Box h='100vh'>
-            <Box h='20vh' bg='linear-gradient(black, transparent)' display='flex' justifyContent='center' alignItems='center'>
+            <Box h='20%' bg='linear-gradient(black, transparent)' display='flex' justifyContent='center' alignItems='center'>
                 <Box w='40%' h='1px' bg='color.light'></Box>
                 <BotImg handleChange={handleClick} position='absolute'/>
                 <Box w='40%' h='1px' bg='color.light'></Box>

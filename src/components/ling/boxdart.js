@@ -8,9 +8,9 @@ const Boxdart = () => {
 
     return (
         <>
-        <Image m='5px 0 0 0' src={Dart} w='90px' />
+        <Image m='5px 0 0 0' src={Dart} w='70%'/>
         <Heading color='color.light' m='5px'>Dart</Heading>
-        <Text color='color.light' fontSize='21px'> Conhecimento Básico</Text>
+        <Text color='color.light' fontSize='21px'> Básico</Text>
         <QuestionOutlineIcon onClick={onOpen} m='24px 0 0 0' boxSize='30px' color='#D8D4E7' />
 
 

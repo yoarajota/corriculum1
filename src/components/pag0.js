@@ -8,7 +8,7 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 const Pag0 = () => {
     return (
         <Center display='block' w='100%'>
-            <Box w='100%' m='-40px 0 0 0' align='center'>
+            <Box w='100%' m='-30px 0 0 0' align='center'>
                 <Image src={Seta} className='seta' m='-10px 0 20px 0' w='40px' />
                 <Text color='color.light' m='-15px 0 25px 0'>Próxima Página</Text>
                 <Box w='100%' m='20px 0 0 0' h='1px' opacity='0.5' bg='color.light'></Box>
