@@ -14,17 +14,18 @@ const Map = () => {
 
   return isLoaded ? (
     <GoogleMap
-      mapContainerStyle={{ width: '20vw', minWidth: '300px', height: '20vw', minHeight: '300px', overflow: 'unset', border: '4px solid white', margin: 'auto' }}
+      mapContainerStyle={{ minWidth: '120px', height: '20vw', width:'100%', minHeight: '120px', overflow: 'unset', border: '4px solid white', margin: 'auto' }}
       clickableIcons={false}
       center={position}
-      zoom={16}
+      zoom={15}
     >
       <Marker position={position}>
         
       </Marker>
-      <></>
     </GoogleMap>
-  ) : (<></>
+  ) : (
+  
+  <></>
   )
 }
 

@@ -1,5 +1,5 @@
 // import { useNavigate } from "react-router-dom";
-import { Box } from '@chakra-ui/react'
+import { Box, Button } from '@chakra-ui/react'
 import BotImg from './BotImg';
 import { useState } from 'react';
 import H1 from './H1';
@@ -8,6 +8,8 @@ import Pag0 from './pag0';
 import Pag1 from './pag1';
 import Pag2 from './pag2';
 import Pag3 from './pag3';
+import Pag4 from './pag4';
+import DrawerInfo from './drawer';
 
 const Home = () => {
 
@@ -24,17 +26,20 @@ const Home = () => {
         counter == 0 && mudaTela(<Pag1 />)
         counter == 1 && mudaTela(<Pag2 />)
         counter == 2 && mudaTela(<Pag3 />)
-        setCounter((counter + 1) % 3)
+        counter == 3 && mudaTela(<Pag4 />)
+        setCounter((counter + 1) % 4)
     }
+
+
 
     return (
         <Box h='100vh'>
             <Box h='20%' bg='linear-gradient(black, transparent)' display='flex' justifyContent='center' alignItems='center'>
-                <Box w='40%' h='1px' bg='color.light'></Box>
-                <BotImg handleChange={handleClick} position='absolute'/>
-                <Box w='40%' h='1px' bg='color.light'></Box>
+                <Button w='5%' onClick={mudaTela}></Button>
+                <BotImg handleChange={handleClick} position='absolute' />
+                <DrawerInfo />
             </Box>
-                {tela}
+            {tela}
         </Box>
 
     )

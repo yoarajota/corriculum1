@@ -8,7 +8,7 @@ const BotImg = ({ handleChange, tela }) => {
 
   return (
     <>
-        <Image w='30%' minWidth='160px' maxWidth='420px' src={ImgYJ} alt='ImgYJ' m='25px' onClick={handleChange} />
+        <Image w='30%' minWidth='180px' maxWidth='420px' src={ImgYJ} alt='ImgYJ' m='25px' onClick={handleChange} />
     </>
   )
 }

@@ -4,6 +4,6 @@
 
 @keyframes is-boucing   {
     to {
-        transform: translateY(8px);
+        transform: translateY(20%);
     }
 }

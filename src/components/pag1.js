@@ -11,28 +11,28 @@ const Pag1 = () => {
 
     return (
         <Center>
-            <Wrap justify='center'  m='4% 0 0 0' w='80%' spacing='10%'>
-                <WrapItem minWidth='90px' w='10%'>
+            <Wrap justify='center'  m='5% 0 0 0' w='80%' spacing='5%'>
+                <WrapItem minWidth='90px' w='15%'>
                     <Box align='center'>
                         <Boxhtml />
                     </Box>
                 </WrapItem>
-                <WrapItem  minWidth='90px' w='10%'>
+                <WrapItem  minWidth='90px' w='15%'>
                     <Box align='center'>
                         <Boxcss />
                     </Box>
                 </WrapItem>
-                <WrapItem  minWidth='90px' w='10%'>
+                <WrapItem  minWidth='90px' w='15%'>
                     <Box align='center' >
                         <Boxjs />
                     </Box>
                 </WrapItem>
-                <WrapItem  minWidth='90px' w='10%'>
+                <WrapItem  minWidth='90px' w='15%'>
                     <Box align='center'>
                         <Boxreact />
                     </Box>
                 </WrapItem>
-                <WrapItem  minWidth='90px' w='10%'>
+                <WrapItem  minWidth='90px' w='15%'>
                     <Box align='center'>
                         <Boxdart />
                     </Box>

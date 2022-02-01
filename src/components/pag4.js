@@ -5,18 +5,16 @@ import Cat from '../img/cat.gif'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 
-const Pag0 = () => {
+const Pag4 = () => {
     return (
         <Center display='block' w='100%'>
             <Box w='100%' align='center'>
-                <Image src={Seta} className='seta' m='-10px 0 20px 0' w='4%' />
-                <Text color='color.light' m='-15px 0 25px 0' fontSize='clamp(0.em, 1vw, 1.4em)'>Próxima Página</Text>
                 <Box w='100%' m='20px 0 0 0' h='1px' opacity='0.5' bg='color.light'></Box>
                 <Heading color='color.light' fontSize='clamp(1.2em, 2.5vw, 6em)' m='20px 0 20px 0'> João Vítor Basso Sberse </Heading>
                 <Box w='100%' h='1px' opacity='0.5' bg='color.light'></Box>
                 <Image m='25px 0 0 0' src={Cat} ></Image>
             </Box>
-            <Box m='5% auto 0 auto' w='70%'>
+            <Box m='10% auto 0 auto' w='70%'>
                 <Box>
                 <Heading fontSize='23px' color='color.light'>Sobre</Heading>
                 <Text color='color.light' fontSize='clamp(0.8em, 1vw, 1.6em)' m='6px 0 0 0'>18 anos</Text>
@@ -33,4 +31,4 @@ const Pag0 = () => {
     )
 }
 
-export default Pag0;
+export default Pag4;
